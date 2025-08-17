@@ -1,0 +1,19 @@
+Encrypt a File
+
+python3 file_vault.py
+> Choose (1/2): 1
+> Enter file path: /path/to/secret.txt
+> Enter password: [hidden]
+
+Output: secret.txt.encrypted
+
+
+
+Decrypt a File
+
+python3 file_vault.py
+> Choose (1/2): 2
+> Enter file path: /path/to/secret.txt.encrypted
+> Enter password: [hidden]
+
+Output: secret.txt.decrypted
