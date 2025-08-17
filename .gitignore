@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Encryption artifacts
+*.encrypted
+*.decrypted
+
+# Environment
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.txt
